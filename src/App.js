@@ -17,7 +17,7 @@ function App() {
     debounce((value) => {
       setDefault_country(value);
       fetchByCountry(value);
-    }, 1000),
+    }, 2000),
     []
   );
   function fetchByCountry(country) {
